@@ -10,11 +10,13 @@
 
 @implementation ALAsset (isEqual)
 
+//判断类别
 - (BOOL)isPhoto
 {
     return [[self valueForProperty:ALAssetPropertyType] isEqual:ALAssetTypePhoto];
 }
 
+//重写isEqual方法
 - (BOOL)isEqual:(id)object
 {
     if (![object isKindOfClass:ALAsset.class])
