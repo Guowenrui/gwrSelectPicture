@@ -5,7 +5,7 @@
 //  Created by xiner-ios on 15-4-2.
 //  Copyright (c) 2015年 xiner-ios. All rights reserved.
 //
-
+//test
 #import <AssetsLibrary/AssetsLibrary.h>
 
 @interface ALAsset (isEqual)
